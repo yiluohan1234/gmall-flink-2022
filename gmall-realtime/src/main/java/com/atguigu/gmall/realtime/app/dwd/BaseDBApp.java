@@ -57,7 +57,7 @@ public class BaseDBApp {
                     }
                 });
 
-        //TODO 4.使用FlinkCDC消费配置表并处理成         广播流
+        //TODO 4.使用FlinkCDC消费配置表并处理成广播流
         DebeziumSourceFunction<String> sourceFunction = MySQLSource.<String>builder()
                 .hostname("hdp103")
                 .username("root")

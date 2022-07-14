@@ -10,7 +10,7 @@ import org.apache.flink.streaming.api.CheckpointingMode;
 import org.apache.flink.streaming.api.datastream.DataStreamSource;
 import org.apache.flink.streaming.api.environment.StreamExecutionEnvironment;
 
-//https://gitee.com/wh-alex/gmall-flink-210325/blob/master/gmall-realtime/src/main/java/com/atguigu/app/dwd/BaseDBApp.java
+//https://gitee.com/wh-alex/gmall-flink-210325/tree/master/gmall-realtime/src/main/java/com/atguigu
 public class FlinkCDC {
     public static void main(String[] args) throws Exception {
 
